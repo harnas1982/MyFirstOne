@@ -23,6 +23,17 @@ public class MainModel {
 		}
 		return mainMap.isEmpty();
 	}
+	
+	public void generateRandomDataForModelMap() {
+		
+		Integer howManyTimes = Double.valueOf(Math.random()*10).intValue();
+		
+		
+		for (int i=0; i<howManyTimes; i++) {
+			mainMap.put(i, Integer.toString(i));
+		}
+		
+	}
 		
 	
 }

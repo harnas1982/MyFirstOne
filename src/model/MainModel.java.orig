@@ -41,9 +41,12 @@ public class MainModel {
 	}
 	
 	// introducing few comments
-	//check this out
+<<<<<<< HEAD
 	// second comments
 	// third comments
+=======
+	//check this out
+>>>>>>> master
 		
 	
 }

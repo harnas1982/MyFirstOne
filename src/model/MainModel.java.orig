@@ -23,17 +23,18 @@ public class MainModel {
 		}
 		return mainMap.isEmpty();
 	}
+<<<<<<< HEAD
 	
-	public void generateRandomDataForModelMap() {
-		
-		Integer howManyTimes = Double.valueOf(Math.random()*10).intValue();
-		
-		
-		for (int i=0; i<howManyTimes; i++) {
-			mainMap.put(i, Integer.toString(i));
-		}
-		
+	public Map<Integer,String> getMainModelMap() {
+		return mainMap;
 	}
+	
+	public void setMainModelMap(Map<Integer, String> map) {
+		
+		mainMap = map;
+	}
+=======
+>>>>>>> parent of 60c3ce6... generating data added
 		
 	
 }

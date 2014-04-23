@@ -24,15 +24,13 @@ public class MainModel {
 		return mainMap.isEmpty();
 	}
 	
-	public void generateRandomDataForModelMap() {
+	public Map<Integer,String> getMainModelMap() {
+		return mainMap;
+	}
+	
+	public void setMainModelMap(Map<Integer, String> map) {
 		
-		Integer howManyTimes = Double.valueOf(Math.random()*10).intValue();
-		
-		
-		for (int i=0; i<howManyTimes; i++) {
-			mainMap.put(i, Integer.toString(i));
-		}
-		
+		mainMap = map;
 	}
 		
 	

@@ -34,6 +34,11 @@ public class MainModel {
 		}
 		
 	}
+	
+	public Map<Integer,String> getMainModelMap() {
+		return mainMap;
+		
+	}
 		
 	
 }
